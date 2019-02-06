@@ -1,1 +1,7 @@
-{}
+{
+  "Print to console": {
+    "prefix": "asdasd",
+    "body": "print('== $1 ===>>>> $$2');$3",
+    "description": "Log output to console"
+  }
+}
