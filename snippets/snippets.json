@@ -10,7 +10,7 @@
     "description": "Log output to console"
   },
   "Stateless Widget": {
-    "prefix": "stlss",
+    "prefix": "sl",
     "body": [
       "class ${1:name} extends StatelessWidget {",
       "\tfinal Widget ${2:child};\n",
@@ -26,7 +26,7 @@
     "description": "Create a Stateless widget"
   },
   "Stateful Widget": {
-    "prefix": "stful",
+    "prefix": "sf",
     "body": [
       "class ${1:name} extends StatefulWidget {",
       "\tfinal Widget ${2:child};\n",
@@ -43,6 +43,15 @@
       "}"
     ],
     "description": "Create a Stateful widget"
+  },
+  "List<Widget>": {
+    "prefix": "children",
+    "body": [
+      "children: <Widget>[",
+      "\t${0:}",
+      "],"
+    ],
+    "description": "List<Widget>"
   },
   "Build Method": {
     "prefix": "bld",
@@ -298,6 +307,11 @@
       "final _${2:name}Controller = StreamController<${1:type}>();"
     ],
     "description": "A source of asynchronous data events. A stream can be of any data type <T>"
+  },
+  "Import Package": {
+    "prefix": "mi",
+    "body": "import '$0';",
+    "description": "Import package"
   },
   "Material Package": {
     "prefix": "mipm",
