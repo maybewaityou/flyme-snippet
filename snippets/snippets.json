@@ -93,7 +93,9 @@
   "setState": {
     "prefix": "ss",
     "body": [
-      "setState(() {${1}});"
+      "setState(() {",
+      "\t${1}",
+      "});"
     ],
     "description": "setState"
   },
