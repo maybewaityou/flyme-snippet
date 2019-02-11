@@ -303,5 +303,15 @@
     "prefix": "mipm",
     "body": "import 'package:flutter/material.dart';",
     "description": "Import flutter material package"
+  },
+  "RxDart Package": {
+    "prefix": "mirx",
+    "body": "import 'package:rxdart/rxdart.dart';",
+    "description": "Import rxdart package"
+  },
+  "Dart Async Module": {
+    "prefix": "mida",
+    "body": "import 'dart:async';",
+    "description": "Import dart async module"
   }
 }
