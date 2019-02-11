@@ -94,7 +94,7 @@
     "description": "InheritedWidget"
   },
   "setState": {
-    "prefix": "ss",
+    "prefix": "sst",
     "body": [
       "setState(() {",
       "\t${1}",
