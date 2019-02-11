@@ -1,7 +1,12 @@
 {
   "Print to console": {
-    "prefix": "asdasd",
+    "prefix": "asddsa",
     "body": "print('== $1 ===>>>> $$2');$3",
+    "description": "Log output to console"
+  },
+  "Debug print to console": {
+    "prefix": "asdasd",
+    "body": "debugPrint('== $1 ===>>>> $$2');$3",
     "description": "Log output to console"
   },
   "StatelessWidget": {
@@ -41,7 +46,6 @@
       "\t\treturn ${Scaffold}(",
       "\t\t\tappBar: AppBar(",
       "\t\t\t\ttitle: Text('${1:WidgetName}'),",
-      "\t\t\t\televation: 0.0,",
       "\t\t\t),${2}",
       "\t\t);",
       "\t}",
@@ -62,7 +66,6 @@
       "\t\treturn ${Scaffold}(",
       "\t\t\tappBar: AppBar(",
       "\t\t\t\ttitle: Text('${1:WidgetName}'),",
-      "\t\t\t\televation: 0.0,",
       "\t\t\t),${2}",
       "\t\t);",
       "\t}",
