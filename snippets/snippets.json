@@ -44,15 +44,6 @@
     ],
     "description": "Create a Stateful widget"
   },
-  "List<Widget>": {
-    "prefix": "children",
-    "body": [
-      "children: <Widget>[",
-      "\t${0:}",
-      "],"
-    ],
-    "description": "List<Widget>"
-  },
   "Build Method": {
     "prefix": "bld",
     "body": [
@@ -308,9 +299,14 @@
     ],
     "description": "A source of asynchronous data events. A stream can be of any data type <T>"
   },
-  "Import Package": {
+  "Import Empty Package": {
     "prefix": "mi",
     "body": "import '$0';",
+    "description": "Import empty package"
+  },
+  "Import Package": {
+    "prefix": "mip",
+    "body": "import 'package$0';",
     "description": "Import package"
   },
   "Material Package": {
