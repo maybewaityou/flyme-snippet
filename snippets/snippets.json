@@ -323,5 +323,15 @@
     "prefix": "mida",
     "body": "import 'dart:async';",
     "description": "Import dart async module"
+  },
+  "Dart IO Module": {
+    "prefix": "midi",
+    "body": "import 'dart:io';",
+    "description": "Import dart io module"
+  },
+  "Dart Convert Module": {
+    "prefix": "midc",
+    "body": "import 'dart:convert';",
+    "description": "Import dart convert module"
   }
 }
