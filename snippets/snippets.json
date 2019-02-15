@@ -1,11 +1,11 @@
 {
   "Print to console": {
-    "prefix": "asddsa",
+    "prefix": "asdasd",
     "body": "print('== $1 ===>>>> $$2');$3",
     "description": "Log output to console"
   },
   "Debug print to console": {
-    "prefix": "asdasd",
+    "prefix": "asddsa",
     "body": "debugPrint('== $1 ===>>>> $$2');$3",
     "description": "Log output to console"
   },
