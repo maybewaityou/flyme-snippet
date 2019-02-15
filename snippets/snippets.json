@@ -309,6 +309,11 @@
     "body": "import 'package$0';",
     "description": "Import package"
   },
+  "Import Dart Package": {
+    "prefix": "mid",
+    "body": "import 'dart$0';",
+    "description": "Import dart package"
+  },
   "Material Package": {
     "prefix": "mipm",
     "body": "import 'package:flutter/material.dart';",
