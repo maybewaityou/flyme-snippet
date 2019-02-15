@@ -89,16 +89,16 @@
   },
   "InitState ": {
     "prefix": "init",
-    "body": ["void initState() { ", "\tsuper.initState();", "\t${0:}", "}"],
+    "body": ["void initState() {", "\tsuper.initState();", "\t${0:}", "}"],
     "description": "Called when this object is inserted into the tree. The framework will call this method exactly once for each State object it creates."
   },
   "Dispose": {
     "prefix": "dis",
     "body": [
       "@override",
-      "void dispose() { ",
-      "  ${0:}",
-      "  super.dispose();",
+      "void dispose() {",
+      "\t${0:}",
+      "\tsuper.dispose();",
       "}"
     ],
     "description": "Called when this object is removed from the tree permanently. The framework calls this method when this State object will never build again."
@@ -107,7 +107,7 @@
     "prefix": "rasm",
     "body": [
       "@override",
-      "void reassemble(){",
+      "void reassemble() {",
       "\tsuper.reassemble();",
       "\t${0:}",
       "}"
