@@ -4,6 +4,7 @@
     "description": "flutter snippets",
     "version": "0.0.1",
     "publisher": "MeePwn",
+    "icon": "images/icon.png",
     "engines": {
         "vscode": "^1.31.0"
     },
