@@ -174,9 +174,10 @@
     "body": [
       "StreamBuilder(",
       "\tstream: ${1:stream},",
-      "\tbuilder: (BuildContext context, AsyncSnapshot<$2> snapshot) {",
+      "\tinitialData: ${2:InitialData},",
+      "\tbuilder: (BuildContext context, AsyncSnapshot<$3> snapshot) {",
       "\t\treturn Container(",
-      "\t\t\tchild: ${3:child},",
+      "\t\t\tchild: ${4:child},",
       "\t\t);",
       "\t},",
       "),"
