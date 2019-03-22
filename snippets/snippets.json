@@ -339,7 +339,7 @@
     "body": [
       "final _${2:name}Controller = BehaviorSubject<${1:type}>();",
       "Sink<${1:type}> get _${2:name}Sink => _${2:name}Controller.sink;",
-      "Observable<${1:type}> get ${2:name} => _${2:name}Controller.stream;"
+      "Observable<${1:type}> get ${2:name}Stream => _${2:name}Controller.stream;"
     ],
     "description": "A source of asynchronous data events. A sink and a stream can be of any data type <T>"
   },
