@@ -4,9 +4,19 @@
     "body": "print('== $1 ===>>>> $$2');$3",
     "description": "Log output to console"
   },
-  "Debug print to console": {
+  "Print to console with params": {
     "prefix": "asddsa",
+    "body": "print('== $1 ===>>>> ${$2}');$3",
+    "description": "Log output to console"
+  },
+  "Debug print to console": {
+    "prefix": "dsadsa",
     "body": "debugPrint('== $1 ===>>>> $$2');$3",
+    "description": "Log output to console"
+  },
+  "Debug print to console with params": {
+    "prefix": "dsaasd",
+    "body": "debugPrint('== $1 ===>>>> ${$2}');$3",
     "description": "Log output to console"
   },
   "Stateless Widget": {
