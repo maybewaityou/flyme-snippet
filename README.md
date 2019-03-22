@@ -7,8 +7,20 @@
 print('== $1 ===>>>> $$2');$3
 ```
 
-* `asddsa`
+* `asddsa`:
+
+```dart
+print('== $1 ===>>>> ${$2}');$3
+```
+
+* `dsadsa`
 
 ```dart
 debugPrint('== $1 ===>>>> $$2');$3
+```
+
+* `dsaasd`
+
+```dart
+debugPrint('== $1 ===>>>> ${$2}');$3
 ```

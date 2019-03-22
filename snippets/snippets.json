@@ -1,23 +1,48 @@
 {
   "Print to console": {
     "prefix": "asdasd",
-    "body": "print('== $1 ===>>>> $$2');$3",
+    "body": "print('== $1 ===>>>> $$2');",
     "description": "Log output to console"
   },
   "Print to console with params": {
     "prefix": "asddsa",
-    "body": "print('== $1 ===>>>> ${$2}');$3",
+    "body": "print('== $1 ===>>>> ${$2}');",
     "description": "Log output to console"
   },
   "Debug print to console": {
     "prefix": "dsadsa",
-    "body": "debugPrint('== $1 ===>>>> $$2');$3",
+    "body": "debugPrint('== $1 ===>>>> $$2');",
     "description": "Log output to console"
   },
   "Debug print to console with params": {
     "prefix": "dsaasd",
-    "body": "debugPrint('== $1 ===>>>> ${$2}');$3",
+    "body": "debugPrint('== $1 ===>>>> ${$2}');",
     "description": "Log output to console"
+  },
+  "Snapshot": {
+    "prefix": "sna",
+    "body": "snapshot",
+    "description": "Snapshot"
+  },
+  "Insert an if statement": {
+    "prefix": "if",
+    "body": [
+      "if ($1) {",
+      "\t$2",
+      "}"
+    ],
+    "description": "Insert an if statement"
+  },
+  "Insert an if statement with else block": {
+    "prefix": "ife",
+    "body": [
+      "if ($1) {",
+      "\t$2",
+      "} else {",
+      "\t$3",
+      "}"
+    ],
+    "description": "Insert an if statement with else block"
   },
   "Stateless Widget": {
     "prefix": "sl",
