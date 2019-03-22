@@ -174,7 +174,7 @@
     "body": [
       "StreamBuilder(",
       "\tstream: ${1:stream},",
-      "\tinitialData: ${2:InitialData},",
+      "\tinitialData: ${2:initialData},",
       "\tbuilder: (BuildContext context, AsyncSnapshot<$3> snapshot) {",
       "\t\treturn Container(",
       "\t\t\tchild: ${4:child},",
@@ -250,7 +250,7 @@
     "body": [
       "FutureBuilder(",
       "\tfuture: ${1:Future},",
-      "\tinitialData: ${2:InitialData},",
+      "\tinitialData: ${2:initialData},",
       "\tbuilder: (BuildContext context, AsyncSnapshot<$3> snapshot) {",
       "\t\treturn ${4:child};",
       "\t},",
