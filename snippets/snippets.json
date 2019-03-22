@@ -89,7 +89,7 @@
     ],
     "description": "Describes the part of the user interface represented by this widget."
   },
-  "Custom Painter ": {
+  "Custom Painter": {
     "prefix": "cp",
     "body": [
       "class ${0:name}Painter extends CustomPainter {",
@@ -107,7 +107,7 @@
     ],
     "description": "Used for creating custom paint"
   },
-  "Custom Clipper ": {
+  "Custom Clipper": {
     "prefix": "cc",
     "body": [
       "class ${0:name}Clipper extends CustomClipper<Path> {",
@@ -122,7 +122,7 @@
     ],
     "description": "Used for creating custom shapes"
   },
-  "InitState ": {
+  "InitState": {
     "prefix": "init",
     "body": ["void initState() {", "\tsuper.initState();", "\t${0:}", "}"],
     "description": "Called when this object is inserted into the tree. The framework will call this method exactly once for each State object it creates."
