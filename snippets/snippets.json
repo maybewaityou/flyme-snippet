@@ -337,6 +337,7 @@
   "Generate Sink and Stream with RxDart": {
     "prefix": "gss",
     "body": [
+      "final ${2:name} = $3;",
       "final _${2:name}Controller = BehaviorSubject<${1:type}>();",
       "Sink<${1:type}> get _${2:name}Sink => _${2:name}Controller.sink;",
       "Observable<${1:type}> get ${2:name}Stream => _${2:name}Controller.stream;"
