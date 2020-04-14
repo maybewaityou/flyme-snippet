@@ -2,7 +2,7 @@
   "name": "Flyme",
   "displayName": "Flyme",
   "description": "Flyme toolchain. Dart & Flutter snippet.",
-  "version": "0.0.2",
+  "version": "0.0.1",
   "publisher": "MeePwn",
   "icon": "images/icon.png",
   "engines": {
