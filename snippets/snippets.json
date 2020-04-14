@@ -26,22 +26,12 @@
   },
   "Insert an if statement": {
     "prefix": "if",
-    "body": [
-      "if ($1) {",
-      "\t$2",
-      "}"
-    ],
+    "body": ["if ($1) {", "\t$2", "}"],
     "description": "Insert an if statement"
   },
   "Insert an if statement with else block": {
     "prefix": "ife",
-    "body": [
-      "if ($1) {",
-      "\t$2",
-      "} else {",
-      "\t$3",
-      "}"
-    ],
+    "body": ["if ($1) {", "\t$2", "} else {", "\t$3", "}"],
     "description": "Insert an if statement with else block"
   },
   "Stateless Widget": {
