@@ -1,6 +1,6 @@
 {
-  "name": "flyme",
-  "displayName": "Flyme",
+  "name": "flyme-snippet",
+  "displayName": "Flyme Snippet",
   "description": "Flyme toolchain. Dart & Flutter snippet.",
   "version": "0.0.1",
   "publisher": "MeePwn",
